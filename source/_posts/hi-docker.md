@@ -404,7 +404,7 @@ notepad docker-compose.yml
 
 ![保存配置](https://cdn.jsdelivr.net/gh/var-kong/picx-images-hosting@master/blog/202403/docker/newimage-5.webp)
 
-不过这里还没有结束，我们需要修改一下`volumes`词条，将数据目录换成我们需要的(以及，UID和PID实际上不应该被设置为0，这意味着以root身份启动容器，带来安全隐患，不过目前我们不考虑这些)
+不过这里还没有结束，我们需要修改一下`volumes`词条，将数据目录换成我们需要的(以及，UID和GID实际上不应该被设置为0，这意味着以root身份运行容器，带来安全隐患，不过目前我们不考虑这些)
 
 ![修改volumes配置](https://cdn.jsdelivr.net/gh/var-kong/picx-images-hosting@master/blog/202403/docker/newimage-6.webp)
 

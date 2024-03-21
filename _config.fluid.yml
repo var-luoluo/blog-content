@@ -275,7 +275,7 @@ post:
   toc:
     enable: true
     placement: right
-    headingSelector: "h1,h2,h3"
+    headingSelector: "h1,h2,h3,h4"
     collapseDepth: 0
 
   copyright:
